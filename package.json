@@ -1,0 +1,15 @@
+{
+  "name": "UI-Tiffin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  }
+}
