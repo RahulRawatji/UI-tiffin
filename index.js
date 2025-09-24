@@ -208,7 +208,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const animatedCopy = linkCopy[1];
         
             const visibleChars = visibleCopy.querySelectorAll('.char');
-            console.log(visibleChars)
+          
             gsap.to(visibleChars, {
                 y: '0%',
                 stagger: 0.03,
@@ -252,7 +252,6 @@ document.addEventListener('DOMContentLoaded', function () {
         targetX = maxMoveLeft + mousePercent * (maxMoveRight - maxMoveLeft) ;
 
     function animate() {
-        console.log('animate');
         currentX += (targetX - currentX) * lerpFactor;
         currentHighlighterX += (targetHighlighterX - currentHighlighterX) * lerpFactor;
         currentHighlighterWidth += (targetHighlighterWidth - currentHighlighterWidth) * lerpFactor;

@@ -7,7 +7,8 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "@gsap/react": "^2.1.2"
+    "@gsap/react": "^2.1.2",
+    "lenis": "^1.3.11"
   },
   "devDependencies": {
     "parcel": "^2.16.0"
